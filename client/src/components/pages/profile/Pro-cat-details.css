@@ -1,0 +1,26 @@
+.pro-details-form label {
+    font-size: 1.7em;
+    font-weight: 200;
+    padding-right: 15px;
+}
+
+.pro-details-form input {
+    font-size: 1.5em;
+}
+
+.pro-details-form .button {
+    border-color:  white;
+    transition: 0.2s;
+    margin-right: 50px;
+    background-color: rgba(131, 51, 138, 1);
+}
+
+.buttonDelete {
+    background-color: rgba(131, 51, 138, 1);
+    color: white;
+    border-color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+}

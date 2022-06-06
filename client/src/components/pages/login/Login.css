@@ -1,0 +1,36 @@
+.ptitle {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.formu {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.formu label {
+    font-size: 1.3em;
+}
+
+.formu button {
+    background-color: rgba(131, 51, 138, 1);
+    border-color: rgba(131, 51, 138, 1);
+    padding: 15px;
+    font-size: 0.8em;
+    font-weight: 300;
+    transition: 0.2s;
+}
+
+.formu button:hover {
+    opacity: 0.8;
+    background-color: rgba(131, 51, 138, 1);
+}
+
+.logi {
+    width: 300px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }

@@ -1,0 +1,54 @@
+.profile {
+    font-weight: 200;
+    margin-top: 300px;
+}
+
+.logo-perfil {
+    margin:70px 0;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.main h2 {
+    font-size: 2.8em;
+    font-weight: 300;
+    padding: 25px 0;
+}
+
+.main p {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.main h3 {
+    padding-top: 40px;
+    text-align: left;
+}
+
+.listaBtn {
+    margin-right: 30px;
+    padding: 25px;
+    font-size: 1.6em;
+    font-weight: 200;
+    color: #ffffff;
+    border:rgba(131, 51, 138, 1);
+    background-color:  rgba(131, 51, 138, 1);
+    transition: 0.2s;
+}
+
+.listaBtn:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+    .logo-perfil {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .listaBtn{
+        font-size: 1.2em;
+        margin-bottom: 25px;
+    }
+}

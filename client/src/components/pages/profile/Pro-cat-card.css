@@ -1,0 +1,9 @@
+.cat-card .link {
+   font-size: 2em;
+}
+
+@media (max-width: 900px) {
+    .cat-card .link {
+        font-size: 1.2em;
+    }
+}

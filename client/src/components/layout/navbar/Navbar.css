@@ -1,0 +1,32 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(131, 51, 138, 1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navlink {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 200;
+    padding: 0 20px;
+}
+
+.navlink:hover {
+    transform: scale(1.2);
+}
+
+.logoNav {
+    width: 200px;
+    transition: 0.2s;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.logoNav:hover {
+    transform: scale(1.1);
+}

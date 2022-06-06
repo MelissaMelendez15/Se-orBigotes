@@ -1,0 +1,64 @@
+.apartado1 {
+    width: 100vw;
+    margin: auto;
+} 
+
+.paragraph {
+    position: absolute;
+    width: 30%;
+    font-size: 3em;
+    font-weight: 400;
+    top:60%;
+    left: 15%;
+}
+
+.paragraph.white {
+    color:white;
+    text-align: center;
+    width: 70%;
+}
+
+.apartado2 {
+    font-size: 30px;
+    margin-top: 120px
+}
+
+.apartado2 p{
+    text-align: center;
+    margin: 0;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    font-weight: 200;
+    font-size: 1.8em;
+}
+
+.apartado2 {
+    opacity: 0;
+    transition: .2s;
+    background-color: rgba(131, 51, 138, 1);
+}
+
+.apartado2.on {
+    opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+    .apartado1 {
+        margin-top: 40%;
+    }
+
+    .paragraph {
+         font-size: 1em;
+         text-align: center;
+    }
+
+    .apartado2 {
+        margin: 0%;
+    }
+
+    .apartado2 p {
+        font-size: 0.8em;
+        padding-left: 20%;
+    }
+
+}
