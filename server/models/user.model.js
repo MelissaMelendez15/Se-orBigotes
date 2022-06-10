@@ -32,13 +32,13 @@ const userSchema = new Schema({
         type: String
     },
 
-    email: {
-        type: String,
-        required: true,
-        default: 'Email-needed',
-        trim: true,
-        match:  /^\S+@\S+\.\S+$/
-    },
+    // email: {
+    //     type: String,
+    //     required: true,
+    //     default: 'Email-needed',
+    //     trim: true,
+    //     match:  /^\S+@\S+\.\S+$/
+    // },
 
 }, {
 

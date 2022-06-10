@@ -34,10 +34,10 @@ const catSchema = new Schema({
         type: [String]
     }, 
 
-    // owner: {
-    //    type: mongoose.SchemaTypes.ObjectId,
-    //    rel: 'User'
-    // }
+    owner: {
+       type: Schema.Types.ObjectId,
+       rel: 'User'
+    }
 },
    {
         timestamps: true
