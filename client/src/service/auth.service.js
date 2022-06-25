@@ -11,6 +11,6 @@ export default class AuthService {
 
     signup = user => this.api.post('/signup', user)
     login = user => this.api.post('/login', user)
-    logout = () => this.api.post('/logout')
-    isLoggedIn = () => this.api.get('/isloggedin')
+    logout = () => this.api.get('/logout')
+    isLoggedIn = () => this.api.post('/isloggedin')
 }

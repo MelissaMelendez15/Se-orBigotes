@@ -67,7 +67,7 @@ export default class Index extends Component {
 
                        <Col lg={12}>
                       
-                         <p className='paragraph white'></p>
+                         <p className='paragraph white'>¡Señor Big@tes!</p>
                        
                        </Col>
                   
