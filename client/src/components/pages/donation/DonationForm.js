@@ -87,7 +87,7 @@ class DonationForm extends Component {
                         
                         <Col md={5}>
 
-                            <img src='http://www.cosasdegatos.es/wp-content/uploads/2017/02/que-piensan-gatos-personas.jpg' alt='gatos y humanos' />
+                            <img src='http://www.cosasdegatos.es/wp-content/uploads/2017/02/que-piensan-gatos-personas.jpg' style={{height: '300px', width: '350px', objectFit: 'cover',  borderRadius: '15px'}} alt='gatos y humanos' />
                         
                         </Col>
                     
@@ -95,7 +95,7 @@ class DonationForm extends Component {
 
                     <Row>
 
-                        <Link to={'/donation'} style={{textDecoration: 'none', color: 'black', marginLeft: '5%'}} className='button'>Volver</Link>
+                        <Link to={'/donation'} style={{textDecoration: 'none', color: '#ffffff', background: 'rgba(131, 51, 138, 1)', marginLeft: '5%'}} className='buttonBack'>Volver</Link>
                     </Row>
 
                 </Container>

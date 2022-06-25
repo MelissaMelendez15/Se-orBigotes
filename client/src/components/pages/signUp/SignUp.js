@@ -104,7 +104,7 @@ class SignUp extends Component {
 
                 </Row>
                     
-                <Row className="justify-content-center">
+                <Row className="justify-content-center regBtn">
                         
                     <Col md={{ span: 6 }} style={{paddingLeft: '8%'}}>
                             

@@ -55,23 +55,27 @@ class CatList extends Component {
         return(
           <>
         
-            <Fade clear duration={800}>
+          <Fade clear duration={800}>
 
-            <Container fluid style={{width: '85%', paddingLeft: '7%'}}>
+            <Container>
 
-                 <h1>Lista de gatos en adopción</h1> 
+                <section className='index'>
+
+                    <h1>Lista de gatos en adopción</h1> 
         
-                 <SearchBar filterMethod={this.filterCats} filterMethodAge={this.filterCatAge} />
+                    <SearchBar filterMethod={this.filterCats} filterMethodAge={this.filterCatAge} />
                         
-                 <Row className='justify-content-around'>
+                 <Row className='list'>
 
-                  {this.state.cats.map(elm => <CatCard key={elm._id} {...elm} />)}
+                    {this.state.cats.map(elm => <CatCard key={elm._id} {...elm} />)}
 
                  </Row>
-           
+                
+                 </section>
+            
             </Container>                
 
-        </Fade>
+          </Fade>
         
         </>
        

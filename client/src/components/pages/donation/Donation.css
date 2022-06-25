@@ -1,9 +1,21 @@
 .donation h1 {
-    padding-left: 43%;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 40px;
 }
 
 .donation h2 {
     padding-top: '40px';
+}
+
+.donation h3 {
+    font-size: 2em;
+    font-weight: 200;
+    text-indent: 40px;
+    text-align: center;
+    padding-left: 16%;
+    padding-bottom: 40px;
+    width: 85%;
 }
 
  .donation p {
@@ -16,10 +28,6 @@
     padding-left: 16%;
 } 
 
-.donation h3 {
-    padding-bottom: 40px;
-}
-
 .donation article {
     line-height: 50px;
     text-align: center;
@@ -28,13 +36,25 @@
 .donation img {
     height: 180px;
     object-fit: cover;
-    margin:50px 0;
+    margin-left: 30%;
+    margin-bottom: 40px;
     display: block;
 }
 
+.linkDonation {
+    letter-spacing: 1px;
+    border: 1px transparent;
+    font-weight: 100;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    width: 220px;
+          
+}
+
 @media (max--width: 900px) {
-    
     .donation h1 {
+        font-size: 3em;
         padding-left: 0%;
     }
 
@@ -47,8 +67,23 @@
         margin-left: 20%;
     }
 
-    .donation.link {
-        margin-left: 10%;
+    .linkDonation {
+        margin-left: 30%;
+    }
+}
+
+@media (max--width: 680px) {
+    .donation h1 {
+        font-size: 3em;
+        padding-left: 0%;
+    }
+
+    .donation img {
+        height: 120px;
+    }
+
+    .linkDonation {
+        margin-left: 100%;
     }
 }
 

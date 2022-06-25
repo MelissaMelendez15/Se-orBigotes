@@ -1,4 +1,5 @@
 .donation-form {
+    margin-top: 250px;
     font-size: 1.5em;
     font-weight: 200;
 }
@@ -10,12 +11,27 @@
 }
 
 .donate img {
-    box-shadow: 0 20px 30px 0 rgba(131, 51, 138, 1);
+    box-shadow: 0 20px 30px 0 #fdc5f5;
     transition: 0.3s;
 }
 
 .donate img:hover {
     opacity: 0.6;
+}
+
+.buttonBack {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    border: 1px transparent;
+    font-weight: 100;
+    display: block;
+    width: 160px;
+    font-size: .7em;
+    padding: 10px 0;
+    text-align: center;
+    margin: 5px 0;
+    margin-bottom: 100px;
 }
 
 @media (max-width: 900px) {
@@ -30,5 +46,17 @@
 
     .donation-form label, select {
         font-size: 1.2em;
+    }
+}
+
+@media (max-width: 900px) {
+    .donate img {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .buttonBack {
+        margin-top: 20px;
+        margin-bottom: 100px;
     }
 }

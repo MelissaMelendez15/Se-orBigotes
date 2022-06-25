@@ -1,5 +1,6 @@
-.cat-card {
-   padding: 50px 0px;
+.cat-div {
+    border:0;
+    position: relative;
 }
 
 .catPhoto:hover {
@@ -7,49 +8,56 @@
 }
 
 .catPhoto {
-    height: 300px;
-    width: 350px;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 0 20px 30px 0 rgba(131, 51, 138, 1); 
-    transition: 0.3s;
+    transition: all 0.3s linear;
 }
 
-h3 {
-    margin: 40px 0;
-    font-weight: 200;
-    font-size: 3em;
+.cat-div h4 {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    background-color: #fdc5f5;;
+    padding: 15px 0;
+    color: black;
+    font-weight: 300;
+    width: 60%;
     text-align: center;
+    margin-left: 20%;
 }
 
-.link {
-    font-size: 1.4em;
-    font-weight: 200;
-    background-color: rgba(131, 51, 138, 1);
-    padding: 20px 25px;
-    transition: 0.3s;
+.cat-div:hover img {
+    filter:grayscale(0.8);
 }
 
-.link:hover {
-    opacity: 0.8;
+
+.cat-div:hover h4 {
+    transform: translateY(-300%);
+    position: absolute;
+    opacity: 1;
+    border: 1px solid white;
 }
 
-.cat-div {
-    text-align: center;
+h4:hover {
+    font-weight: 500;
 }
+
 
 @media (max-width: 900px) {
     
     .catPhoto {
-        max-width: 100%;
-        max-height: 300px;
+       margin-left: 20%;
     }
 
-    h3 {
-        font-size: 2em;
+    .cat-div h4 {
+       width: 40%;
+       margin-left: 25%;
     }
+}
 
-    .link {
-        font-size: 1em;
+@media (max-width: 680px) {
+    
+    .catPhoto {
+       margin-left: 5%;
+    }
+    .cat-div h4 {
+       margin-left: 30%;
     }
 }

@@ -12,21 +12,25 @@ article {
     border-color: #ffffff;
     color: #ffffff;
     font-weight: 200;
+    margin-bottom: 50px;
 }
 
 .details-link:hover {
    opacity: 0.8;
 }
 
-#footprint1 {
-    width: 300px;
-    margin-left: 60px;
-    object-fit: cover;
-    
-}
-
 .catLogo{
    width: 100px;
+}
+
+.catPhotoDetails {
+    margin-top: 250px;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    margin-right: 10%;
+    object-fit: cover;
+
 }
 
 @media (max-width: 900px) {
@@ -46,7 +50,5 @@ article {
         padding: 15px;
         font-size: 0.8em;
     }
-
-   
 
 }

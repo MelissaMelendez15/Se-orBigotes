@@ -63,13 +63,13 @@ class CatDetails extends Component {
                 
             </Fade>
 
-            <Row className='align-items-center justify-content-center' style={{marginBottom: '50px'}}>
+            <Row className='align-items-center justify-content-end' style={{marginBottom: '50px'}}>
 
                 <Col md={3}>
                     
                     <Fade clear duration={2000}>
                     
-                        <img className='catPhoto' src={this.state.cat.imageUrl} alt='cat' />
+                        <img className='catPhotoDetails' src={this.state.cat.imageUrl} alt='cat' />
                         
                     </Fade>
 

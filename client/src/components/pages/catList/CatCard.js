@@ -11,27 +11,18 @@ const CatCard = ( {_id, name,  imageUrl}) => {
 
     return(
         
-        <Col md={4} className='cat-card'>
+        <Col lg={4}>
 
-            <img className='catPhoto' src={imageUrl} alt="cat" />
-         
-           <Row className='justify-content-start'>
-
-              <Col sm={9} md={8}>
-
-                  <div className='cat-div'>
-
-                  <h3>{name}</h3>
-                  
-                  <Link to={`/catList/${_id}`} className='link' style={{textDecoration:'none', color: '#ffffff'}}>Ver detalles</Link>
-
-                  </div>
-               
-               </Col>
+          <div className='cat-div'>
            
-           </Row>
-        
+            <img className='catPhoto' src={imageUrl} alt="cat" style={{height: '300px', width: '350px', objectFit: 'cover',  borderRadius: '15px'}} />
+                 
+            <Link to={`/catList/${_id}`} className='link' style={{textDecoration:'none', color: '#ffffff'}}><h4>{name}</h4>s</Link>
+
+           </div>
+               
         </Col>
+           
     )
 }
 
