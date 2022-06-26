@@ -1,13 +1,13 @@
 <h2> Señor Big@otes!</h2>
 
-<img align='right' src="https://github.com/MelissaMelendez15/asset/blob/main/cat.png" alt="bigotes" width="230">
-
 ## Tabla de contenido
 
 - [Descripción](#descripción)
 - [Cómo iniciar](#cómo-iniciar)
 
 ## Descripción
+
+<img align='right' src="https://github.com/MelissaMelendez15/asset/blob/main/cat.png" alt="bigotes" width="230">
 
 Esta es una aplicación de adopción de gatos de ejemplo para fines de aprendizaje. Se ha desarrollado usando React para el client y Node, Express, Mongoose, MongoDb para el servidor.
 
