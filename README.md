@@ -23,4 +23,4 @@ De momento, es solo una página sencilla que usa una API desarrollada con tecnol
 3. Inicie la aplicación con `npm start`
 
 
-⭐️ Elaborado por: [@Melissa](https://github.com/)
+⭐️ Elaborado por: [@Melissa](https://github.com/MelissaMelendez15)
