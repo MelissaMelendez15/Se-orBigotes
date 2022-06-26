@@ -1,4 +1,4 @@
-<h2> Señor Big@otes! <img src="https://github.com/MelissaMelendez15/asset/blob/main/react.png" alt="react" width="30"> <img src="https://github.com/MelissaMelendez15/asset/blob/main/nodejs.png" alt="node" width="30"> <img src="https://github.com/MelissaMelendez15/asset/blob/main/database.png" alt="db" width="30">
+<h2> Señor Big@tes! <img src="https://github.com/MelissaMelendez15/asset/blob/main/react.png" alt="react" width="30"> <img src="https://github.com/MelissaMelendez15/asset/blob/main/nodejs.png" alt="node" width="30"> <img src="https://github.com/MelissaMelendez15/asset/blob/main/database.png" alt="db" width="30"
 </h2>
 
 ## Tabla de contenido
