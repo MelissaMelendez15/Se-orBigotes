@@ -1,7 +1,7 @@
 <h2> Señor Big@otes!</h2>
-<img  align='right' src="https://github.com/MelissaMelendez15/asset/blob/main/react.png" width="50">
-<img align='right' src="https://github.com/MelissaMelendez15/asset/blob/main/nodejs.png" width="50">
-<img align='right' src="https://github.com/MelissaMelendez15/asset/blob/main/database.png" width="50">
+<img  align='center' src="https://github.com/MelissaMelendez15/asset/blob/main/react.pn width="50">
+<img  align='center' src="https://github.com/MelissaMelendez15/asset/blob/main/nodejs.png" width="50">
+<img  align='center' src="https://github.com/MelissaMelendez15/asset/blob/main/database.png" width="50">
 
 
 <img align='right' src="https://github.com/MelissaMelendez15/asset/blob/main/cat.png" alt="bigotes" width="230">
